@@ -123,3 +123,47 @@ public static void main(String []argh)
 
 }
 }
+
+// same code in python
+// t= int(input())
+// for _ in range(t):
+//     a = input()
+//     a=list(a)
+   
+//     arr=[]
+//     k=0
+//     for i in range(len(a)):
+        
+//         if a[i-k] in '{[(':
+//             arr.append(a[i-k])
+//         elif i!=0:
+//             if a[i] not in '{[(' and len(arr)!=0:
+//                 if (arr[-1]=='{' and a[i-k]=='}'):
+//                     del arr[-1]
+//                     del a[i-1]
+//                     k+=1
+//                 elif (arr[-1]=='[' and a[i-k]==']'):
+//                     del arr[-1]
+//                     del a[i-1]
+//                     k+=1
+//                 elif (arr[-1]=='(' and a[i-k]==')'):
+//                     del arr[-1]
+//                     del a[i-1]
+//                     k+=1
+//                 else:
+//                     print("not balanced")
+//                     print("kk")
+//                     break
+//             else:
+//                 if len(arr)==0:
+//                     print("balanced")
+//                     break
+//                 else:
+//                     print("not balanced")
+//                     break
+//     else:
+//         if len(arr)==0:
+//             print("balanced")
+//         else:
+//             print("not balanced")
+            
